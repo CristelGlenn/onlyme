@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8" />
+
+    <title>Form Validation </title>
+
+ 
+
+<style>
+
+body {
+
+  background color:
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+}
+
+ 
+
+.form-group{
+
+ 
+
+display: flex;
+
+ 
+
+flex-firection: column;
+
+ 
+
+margin-bottom: 10px;
+
+ 
+
+ 
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+label{
+
+ 
+
+font-weight: bold;
+
+ 
+
+}
+
+ 
+
+.error-message {
+
+ 
+
+color: red;
+
+ 
+
+font-size: 14px;
+
+ 
+
+margin-top: 5px;
+
+ 
+
+display: none;
+
+ 
+
+}
+
+ 
+
+.format-control {
+
+ 
+
+width: 50%;
+
+ 
+
+}
+
+ 
+
+</head>
+
+</style>
+
+    
+
+        <center><h1 style="color:blue">DEPARTMENT OF FOREIGN AFFAIRS</center></h1>
+
+        <form id="formfill">
+
+          <fieldset id="Personalinfo">
+
+            <legend><span>Personal Information</span></legend>
+
+           <br><label> Surname <input type="text" name="name" id="nameinput" placeholder="Surname" />
+           <span id="nameinput" style="color:blue">
+           <p>Please enter your Surnamename in UPPERCASE</p>
+            </label>
+
+           <br> <label> First Name<input type="name" name="name" id="nameinput" placeholder="First Name" />
+           <span id ="emailinput" style="color:blue">.
+           <p>Please enter your Firtsname in UPPERCASE</p>
+            </label>
+
+           <br> <label> Middle Name <input type="text" name="middlename" id="middlenameinput" placeholder="middlename" />
+            <span id ="middlenameinput" style="color:blue">
+              <p>Please enter your Lastname in UPPERCASE</p>
+            </label>
+
+            <br> <label> Date of Birth <input type="text" name="date of Birth" id="date of Birth" placeholder="date of Birth" />
+            <span id ="date of Birth input" style="color:blue">
+            </label>
+        
+            <legend>Gender</legend>
+             
+            <br><label for="Male">
+              <input type="checkbox" id="checkbox" value="">
+              <p>Male</p>
+            <span id ="Maleinput" style="color:blue"></span>
+            </label>
+
+            <br><label for="Female">
+              <input type="checkbox" id="checkbox" value="">
+              <p>Female</p>
+            <span id ="Femaleinput" style="color:blue"></span>
+            </label>
+
+
+          
+          <br> <label> Civil Status </label>
+          <input type="text" name="civilstatus" id="civilstatusinput" placeholder="civilstatus" />
+            <span id ="civilstatusinput" style="color:blue">
+            </label>
+
+            <br> <label> Country of Birth</label>
+             <input type="text" name="countryofbirth" id="countryofbirthinput" placeholder="countryofbirth" />
+            <span id ="countryofbirthinput" style="color:blue">
+            </label>
+
+            <br> <label> Province of Birth</label>
+             <input type="text" name="provinceofbirth" id="provincefbirthinput" placeholder="provinceofbirth" />
+            <span id ="provinceofbirthinput" style="color:blue">
+            </label>
+
+            <br> <label> City of Birth</label>
+             <input type="text" name="cityofbirth" id="cityofbirthinput" placeholder="cityyofbirth" />
+            <span id ="cityofbirthinput" style="color:blue">
+            </label>
+
+            
+            <br> <label> How did you acquire PH citizenship?</label>
+            <input type="text" name="How did you acquire PH citizenship" id="How did you acquire PH citizenshiphinput" placeholder="How did you acquire PH citizenship" />
+            <span id ="HowdidyouacquirePHcitizenshipinput" style="color:blue">
+            </label>
+
+            <br> <label> Did you ever lose you PH citizenship</label>
+            <input type="text" name="Did you ever lose you PH citizenship" id="Did you ever lose you PH citizenshipinput" placeholder="Did you ever lose you PH citizenship" />
+            <span id ="Did you ever lose you PH citizenshipipinput" style="color:blue">
+            </label>
+
+            <br> <label> Are you currently a citizen of another country</label>
+            <input type="text" name="Are you currently a citizen of another country" id="Are you currently a citizen of another countryinput" placeholder="Are you currently a citizen of another country" />
+            <span id ="Are you currently a citizen of another country" style="color:blue">
+            </label>
+
+            <br> <label> Have you ever served in any foriegn government</label>
+            <input type="text" name=" Have you ever served in any foriegn government" id=" Have you ever served in any foriegn governmentinput" placeholder=" Have you ever served in any foriegn government" />
+            <span id =" Have you ever served in any foriegn government" style="color:blue">
+            </label
+          
+
+            
+            <legend> Mother's Name </legend>
+
+            <br><label> Maiden Surname <input type="text" name="name" id="nameinput" placeholder="Surname" />
+           <span id="nameinput" style="color:blue">
+           <p>Please enter your Surnamename in UPPERCASE</p>
+            </label>
+
+            <br> <label> First Name<input type="name" name="name" id="nameinput" placeholder="First Name" />
+           <span id ="emailinput" style="color:blue">.
+           <p>Please enter your Firtsname in UPPERCASE</p>
+            </label>
+
+           <br> <label> Maiden Middle Name <input type="text" name="middlename" id="middlenameinput" placeholder="middlename" />
+            <span id ="maidenmiddlenameinput" style="color:blue">
+              <p>Please enter your Lastname in UPPERCASE</p>
+            </label>
+
+            <br> <label> Civil Status </label>
+          <input type="text" name="civilstatus" id="civilstatusinput" placeholder="civilstatus" />
+            <span id ="civilstatusinput" style="color:blue">
+            </label>
+
+            <legend>Father's Name </legend>
+
+            <br><label> Surname <input type="text" name="name" id="nameinput" placeholder="Surname" />
+           <span id="nameinput" style="color:blue">
+           <p>Please enter your Surnamename in UPPERCASE</p>
+            </label>
+
+            <br> <label> First Name<input type="name" name="name" id="nameinput" placeholder="First Name" />
+           <span id ="emailinput" style="color:blue">.
+           <p>Please enter your Firtsname in UPPERCASE</p>
+            </label>
+
+           <br> <label> Middle Name <input type="text" name="middlename" id="middlenameinput" placeholder="middlename" />
+            <span id ="middlenameinput" style="color:blue">
+              <p>Please enter your Lastname in UPPERCASE</p>
+            </label>
+
+            <br> <label> Civil Status </label>
+          <input type="text" name="civilstatus" id="civilstatusinput" placeholder="civilstatus" />
+            <span id ="civilstatusinput" style="color:blue">
+            </label>
+
+            </span>
+          </form>  
+  </body>  
+  </html>
+
+
+
+
+
+
+
+
+
+          
+
+
+                  
+
+
+            
